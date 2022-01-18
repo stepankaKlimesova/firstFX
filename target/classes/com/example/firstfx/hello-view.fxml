@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstfx.HelloController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <ComboBox fx:id="inputBox" prefWidth="150.0" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <Button fx:id="convert" mnemonicParsing="false" onMouseClicked="#onHelloButtonClick" text="convert" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <TextField fx:id="userInput" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <TextField fx:id="userOutput" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <ComboBox fx:id="outputBox" prefWidth="150.0" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+   </children>
+</HBox>
